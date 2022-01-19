@@ -1,0 +1,12 @@
+
+
+.card-container {
+    background-color: #F0F4F8;
+    text-align: center;
+    padding: 2em;
+    border-radius: 0.5em;
+}
+.card-title{
+    color: #748A9D;
+    font-size: large;
+}
