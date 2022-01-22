@@ -9,3 +9,6 @@
     border-radius: 5em;
     font-weight: 600;
 }
+.cardParent:hover{
+    cursor: pointer;
+}

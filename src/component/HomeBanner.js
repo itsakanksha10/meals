@@ -1,7 +1,6 @@
 import React from 'react'
 import './styles/homeBanner.css'
-// import SearchIcon from '@mui/icons-material/Search';
-
+import { FiSearch } from "react-icons/fi";
 
 export default function HomeBanner() {
     return (
@@ -19,11 +18,8 @@ export default function HomeBanner() {
                     <div className="content">
                         <img src={require('../assets/logo_transparent_nopadding.png')} alt="" className="logo" />
                         <p className ='slogan'>Be Your Own Chef!</p>
-                        {/* <SearchIcon/> */}
                         <div className="inputContainer">
-                            <div>
-                                P
-                            </div>
+                            <FiSearch className='searchIcon'/>
                             <input className ='search' placeholder='Search any dish and get full recipe'/>  
                         </div>
                     </div>

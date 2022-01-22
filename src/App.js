@@ -1,13 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
 import FoodCategory from './component/FoodCategory';
-// import './assets/css/fonts.css';
+import './Fonts.css';
+import Meals from './component/Meals';
+import {
+  HashRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+import RecipePage from './component/RecipePage';
 
 function App() {
   return (
-    <div className="App">
-     <FoodCategory/>
-    </div>
+    <Router>
+      {/* <NavBar/> */}
+      <div className="App">
+        <Routes>
+          <Route exact path="/" element={<FoodCategory/>}/>
+          <Route exact path="/meals" element={<Meals/>}/>
+          <Route exact path="/recipe" element={<RecipePage/>}/>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

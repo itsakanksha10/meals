@@ -28,46 +28,30 @@
 }
 .slogan {
     color: white;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2em;
 }
 
 element.style {
 }
 .content {
-    padding-bottom: 3em;
+    padding-bottom: 5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-/* .searchBar{
-    margin-bottom: 6em;
-    border: none;
-    font-size: 1em;
-    width: 60%;
-    border-radius: 0.8rem;
-    padding: 0.5em 2em;
-    background-color: white;
-    
-} */
-/* .search{
-    padding-left: 25px;
-    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
-    background-size: 20px;
-    background-color: white;
-    width: 60%;
-    border-radius: 0.8rem;
-    border: none;
-    padding: 0.5em 4em;
-} */
 .inputContainer {
     display: flex;
     align-items: center;
     width: 60%;
     background-color: #ffffff;
     border-radius: 0.8em;
-    padding: 0.5em;
+    padding: 0.5em 1em;
+}
+.searchIcon{
+    color: #828282;
+    font-size: 1.25em;
 }
 .search {
     flex: 1;
