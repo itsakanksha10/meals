@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/meal-fuel/static/css/main.45e49d1b.css",
+    "main.js": "/meal-fuel/static/js/main.3a76f057.js",
+    "static/js/787.27f0724d.chunk.js": "/meal-fuel/static/js/787.27f0724d.chunk.js",
+    "static/media/headerBg.jpg": "/meal-fuel/static/media/headerBg.b27a0d00fec731e70b1e.jpg",
+    "static/media/logo_transparent_nopadding.png": "/meal-fuel/static/media/logo_transparent_nopadding.e550e8aeb820ed8d55a9.png",
+    "static/media/logo.svg": "/meal-fuel/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/meal-fuel/index.html",
+    "main.45e49d1b.css.map": "/meal-fuel/static/css/main.45e49d1b.css.map",
+    "main.3a76f057.js.map": "/meal-fuel/static/js/main.3a76f057.js.map",
+    "787.27f0724d.chunk.js.map": "/meal-fuel/static/js/787.27f0724d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45e49d1b.css",
+    "static/js/main.3a76f057.js"
+  ]
+}
