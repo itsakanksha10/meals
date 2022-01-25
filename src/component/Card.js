@@ -1,12 +1,8 @@
 import React from "react";
-import { theme } from "../styles/colors";
-import { fonts } from "../styles/fonts";
 import "./styles/card.css"
 
 export default function Card(props) {
-    function opencategory(category){
-
-    }
+    
   return (
     <div className="m-3">
         <div className='card-container'>
