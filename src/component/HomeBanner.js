@@ -8,7 +8,7 @@ export default function HomeBanner() {
             <div className='parentContainer'>
                 <div className="tintLayer">
                     <div className="header">
-                        <p className='leftLinks'>Get the App</p>
+                        <p className='leftLinks'>Get the Apps</p>
                         <div className="rightLinks">
                             <p className='linkItem'>Add a Recipe</p>
                             <p className='linkItem centerLink'>Login</p>
