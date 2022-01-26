@@ -36,6 +36,10 @@ export default function FoodCategory() {
             <HomeBanner/>
             <div className="container">
                 <div className="row">
+                    <div className="txt">
+                        <h1 className='heading'>Popular Food</h1>
+                        <p>We provide a variety of food and beverage recipes </p> <p> with high taste from famous chefs</p>
+                    </div>
                     {
                         mealCategories.map((element, index)=> {
                             return(

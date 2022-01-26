@@ -92,7 +92,7 @@ const RecipePage =() =>{
                                 </div> 
                                 </div>
                                 <hr className="new1"/>
-                                <a href={Recipe.strYoutube} className="btn btn-danger youtubebutton"><AiFillYoutube />Check Video</a>
+                                <a href={Recipe.strYoutube} target='_blank' className="btn btn-danger youtubebutton"><AiFillYoutube />Check Video</a>
                                 </div>
                             </div>
                         </div>
