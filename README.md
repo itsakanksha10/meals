@@ -1,6 +1,6 @@
 # Welcome to Meal Fuel
 
-## Live Demo: https://itsakanksha10.github.io/meal-fuel
+## Live Demo: https://mealfuel.herokuapp.com/
 
 An Application for browsing and searching meals along with their ingredients and recipes. 
 
