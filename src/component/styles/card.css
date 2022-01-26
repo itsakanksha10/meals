@@ -8,3 +8,29 @@
     color: #748A9D;
     font-size: large;
 }
+.main-container{
+    padding: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.outer-circle{
+    padding: 0.5em;
+    border-radius: 50%;
+    background-color: #eeeeee;
+    display: inline-block;
+}
+.outer-circle:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+.inner-circle{
+    height: 10em;
+    width: 10em;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    border-radius: 50%;
+}

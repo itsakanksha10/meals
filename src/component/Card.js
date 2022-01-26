@@ -2,21 +2,23 @@ import React from "react";
 import "./styles/card.css"
 
 export default function Card(props) {
+
+  const circleStyle = {
+    backgroundImage: `url(${props.item.strCategoryThumb})` 
+  }
     
   return (
-    <div className="m-3">
-        <div className='card-container'>
-            <img src={props.item.strCategoryThumb} alt="" className="card-img" />
-            <p className="card-title">{props.item.strCategory}</p>
-        </div>
-        {/* <div className="card">
-                    {
-                        <img src={props.item.strCategoryThumb} className="card-img-top" alt="..."/>
-                    }
-                    <div className="card-body">
-                        <h5 className="card-title">{props.item.strCategory}</h5>
-                    </div>
-                </div> */}
+    // <div className="m-3">
+    //     <div className='card-container'>
+    //         <img src={props.item.strCategoryThumb} alt="" className="card-img" />
+    //         <p className="card-title">{props.item.strCategory}</p>
+    //     </div>
+    // </div>
+    <div className="main-container">
+      <div className="outer-circle">
+        <div className="inner-circle" style={circleStyle}></div>
+      </div>
+      <p className="category-name">{props.item.strCategory}</p>
     </div>
   );
 }
