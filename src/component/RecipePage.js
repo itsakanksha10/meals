@@ -2,9 +2,7 @@
 import axios from 'axios';
 import React, {useEffect, useState } from 'react';
 import './styles/recipe.css';
-import { GiMeal } from "react-icons/gi";
-import { BiTimeFive } from "react-icons/bi";
-import { AiFillStar,AiOutlineStar,AiFillYoutube } from "react-icons/ai";
+import {AiFillYoutube } from "react-icons/ai";
 
 
 
@@ -94,7 +92,7 @@ const RecipePage =() =>{
                                 </div> 
                                 </div>
                                 <hr className="new1"/>
-                                <a href={Recipe.strYoutube} target="_blank" className="btn btn-danger youtubebutton"><AiFillYoutube />Check Video</a>
+                                <a href={Recipe.strYoutube} className="btn btn-danger youtubebutton"><AiFillYoutube />Check Video</a>
                                 </div>
                             </div>
                         </div>
