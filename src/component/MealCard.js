@@ -1,5 +1,5 @@
 import React from 'react'
-import "./styles/card.css"
+import "./styles/meal.css"
 
 
 export default function MealCard(props) {

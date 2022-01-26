@@ -54,9 +54,24 @@
     /* background-image: url({Recipe.strMealThumb}); */
     background-size: cover;
     background-position: center;
+    position: relative;
+    height: 60vh;
+    margin: 2em 20px 0 20px;
 }
-.tintlayer {
-    background-color: rgba(0,0,0,0.55);
+.summaryBlock {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.25em 1em;
+    background-color: #fff;
+}
+.summaryBlock p {
+    margin: 0;
 }
 .heading {
     display: flex;
@@ -73,13 +88,25 @@ hr.new1 {
     padding: 50px;
     margin: 20px;
 }
-.banner {
-    height: 60vh;
-    margin-top: 2em;
-}
 h1 {
     text-align: center;
 }
 .container.fulpage {
     margin-top: 3em;
 } 
+a.btn.btn-danger.youtubebutton {
+    width: 8.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recipetext {
+    display: flex;
+    justify-content: space-between;
+}
+.method{
+    width: 50%;
+}
+.recipeins{
+    white-space: pre-wrap;
+}

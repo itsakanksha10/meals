@@ -33,9 +33,9 @@ export default function Meals() {
         <div>
            <div className="container">
                <div className="row">
-                    <p className='pageHeading m-3'>
-                        {localStorage.getItem('currentCategory')}
-                    </p>
+                    <h1 className='pageHeading m-3'>
+                       <strong>{localStorage.getItem('currentCategory')}</strong> 
+                    </h1>
                     {
                         meals.map((element,index)=>{
                             return(

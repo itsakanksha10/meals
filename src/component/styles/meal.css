@@ -1,0 +1,8 @@
+.card-title{
+    color: #748A9D;
+    font-size: large;
+}
+.card-container:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
