@@ -1,8 +1,7 @@
-.card-title{
-    color: #748A9D;
-    font-size: large;
+.head-container{
+    position: relative;
 }
-.card-container:hover{
-    cursor: pointer;
-    transform: scale(1.1);
+.back-arrow{
+    position: absolute;
+    left: 0;
 }

@@ -45,6 +45,7 @@ export default function FoodCategory() {
                             return(
                                 <div className='col-md-4 cardParent' key={index} onClick={()=>getCategory(element.strCategory)}>
                                     <Card item={element}/>
+                                    {/* <Card name={element.strCategory} image={element.strCategoryThumb}/> */}
                                 </div>
                             );
                         })

@@ -2,12 +2,18 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import MealCard from './MealCard';
 import { useNavigate } from 'react-router-dom';
+import { IoIosArrowRoundBack } from "react-icons/io";
+import "./styles/meal.css"
 
 
 export default function Meals() {
     useEffect(()=>{
         getMeals();
     },[])
+
+    function returnback(){
+        navigate("/")
+    }
 
     const navigate = useNavigate();
 
@@ -33,9 +39,12 @@ export default function Meals() {
         <div>
            <div className="container">
                <div className="row">
+                   <div className="head-container">
+                    <IoIosArrowRoundBack className="back-arrow" onClick={returnback}/>
                     <h1 className='pageHeading m-3'>
                        <strong>{localStorage.getItem('currentCategory')}</strong> 
                     </h1>
+                   </div>
                     {
                         meals.map((element,index)=>{
                             return(
